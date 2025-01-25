@@ -1,0 +1,70 @@
+body {
+    background-color: #f4f1ea;
+    margin: 0;
+    padding: 2rem;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.logo {
+    max-width: 200px;
+    margin: 0 auto;
+    display: block;
+}
+
+.intro {
+    text-align: center;
+    max-width: 600px;
+    margin: 2rem auto;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: #333;
+}
+
+.product-card {
+    background: white;
+    border-radius: 12px;
+    padding: 0;
+    max-width: 256px;
+    margin: 2rem auto;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.product-card img {
+    width: 100%;
+    border-radius: 12px 12px 0 0;
+    margin-bottom: 0;
+    display: block;
+}
+
+.card-content {
+    padding: 1.5rem;
+}
+
+.product-card h2 {
+    margin: 0 0 0.75rem 0;
+    color: #333;
+    font-size: 1.25rem;
+}
+
+.product-card p {
+    margin: 0 0 1rem 0;
+    color: #666;
+    line-height: 1.5;
+    font-size: 0.9rem;
+}
+
+.download-button {
+    width: 100%;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 6px;
+    background: #e0e0e0;
+    color: #999;
+    font-size: 0.9rem;
+    cursor: not-allowed;
+}
