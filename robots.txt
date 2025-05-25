@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://whiskeyjack.net/sitemap.xml
+
+# Allow search engines to crawl all content
+# Specifically allow common directories
+Allow: /icon-maker
+Allow: /icns-extractor
+Allow: /dynamig
+Allow: /hue-scout 
